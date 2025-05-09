@@ -16,47 +16,47 @@ This project analyzes historical NIFTY 50 stock index data to calculate 5-year r
 
 - Columns:
 
- - Date – Trading date
+     - Date – Trading date
 
- - Open – Opening price
+     - Open – Opening price
 
- - High – Highest price of the day
+     - High – Highest price of the day
 
- - Low – Lowest price of the day
+     - Low – Lowest price of the day
 
- - Close – Closing price
+     - Close – Closing price
 
 ## 🛠️ Tools & Libraries
 - Language: Python
 
 - Libraries:
 
- - pandas – For data processing
+     - pandas – For data processing
 
- - matplotlib – For visualization
+     - matplotlib – For visualization
 
 - IDE: Visual Studio Code (recommended)
 
 ## 📌 Methodology
 - Data Preprocessing
 
- - Load and clean the dataset
+     - Load and clean the dataset
 
- - Convert Date column to datetime format
+     - Convert Date column to datetime format
 
- - Identify the earliest trading day of each year
+     - Identify the earliest trading day of each year
  
 - 5-Year Return Calculation
 
- - Get closing prices from earliest trading days
+     - Get closing prices from earliest trading days
 
- - Calculate percentage returns for each 5-year period
+     - Calculate percentage returns for each 5-year period
 
- - Simulate investment of ₹50,000 over each period
+     - Simulate investment of ₹50,000 over each period
 
 - Visualization
 
- - Plot a line chart showing 5-year return trends
+     - Plot a line chart showing 5-year return trends
 
 ## 📉 Sample Output
 - Printed returns for each 5-year window.
